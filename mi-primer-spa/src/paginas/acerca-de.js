@@ -1,7 +1,10 @@
 import React from "react";
-
-export const AcercaDe = () => {
+import { Navbar} from './components/navbar';
+import { Footer } from './components/footer';
+ const AcercaDe = () => {
   return (
+    <div>
+    <Navbar/>
     <div className="container">
       <h1 className=" mt-5">Acerca de</h1>
         <div className="col-md-8">
@@ -17,5 +20,8 @@ export const AcercaDe = () => {
           </p>
         </div>
       </div>
+      <Footer/>
+      </div>
   );
 };
+export default AcercaDe;

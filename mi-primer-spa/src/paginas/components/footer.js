@@ -2,7 +2,7 @@ import React  from "react";
 import { Link } from "react-router-dom";
 export const Footer = () => {
     return ( 
-        <div className="container-fluid">
+        <div className="container-fluid fixed-bottom ">
         <div className="row bg-secondary p-3 text-white">
           <div class="col-sm-12 col-lg-3 col-md-3">
             <figure>
@@ -16,7 +16,7 @@ export const Footer = () => {
           <div className="col-sm-12 col-lg-3 col-md-3">
             <p className="h5 mb-3">Acerca de</p>
             <div className="mb-2">
-              <Link className="text-white text-decoration-none link-success " to="/">Acerca de </Link>
+              <Link className="text-white text-decoration-none link-success " to="/acerca-de">Acerca de </Link>
             </div>
           </div>
           <div className="col-sm-12 col-lg-3 col-md-3">

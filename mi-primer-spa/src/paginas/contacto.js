@@ -1,7 +1,10 @@
 import React  from "react";
-export const Contacto = () => {
+import { Navbar} from './components/navbar';
+import { Footer } from './components/footer';
+ const Contacto = () => {
     return ( 
         <div>
+           <Navbar/>
         <h1>Contacto</h1>
       <div className="card">
   <div class="card-body">
@@ -22,6 +25,8 @@ export const Contacto = () => {
       </form>
       </div>
       </div>
+      <Footer/>
       </div>
     );
 }
+export default Contacto ;

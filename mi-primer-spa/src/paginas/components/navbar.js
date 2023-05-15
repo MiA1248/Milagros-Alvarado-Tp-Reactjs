@@ -15,13 +15,13 @@ export const Navbar = () => {
               <Link className="nav-link active text-dark me-5 link-success" to="/">inicio</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link text-dark me-5 link-success " to="/" >Producto</Link>
+              <Link className="nav-link text-dark me-5 link-success " to="/producto" >Producto</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link text-dark me-5 link-success "to="/" >Acerca de</Link>
+              <Link className="nav-link text-dark me-5 link-success "to="/acerca-de" >Acerca de</Link>
             </li>
             <li className="nav-item mx-2">
-            <Link className="nav-link active text-dark me-5 link-success " to="\">Contacto</Link>
+            <Link className="nav-link active text-dark me-5 link-success " to="/contacto">Contacto</Link>
             </li>
           </ul>
       </div>
